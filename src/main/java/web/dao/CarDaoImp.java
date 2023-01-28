@@ -10,6 +10,7 @@ import java.util.stream.Stream;
 @Repository
 public class CarDaoImp implements CarDao {
 
+    //Лист машин, вместо БД
     List<Car> cars = new ArrayList<>(Stream.of(
             new Car("model1", 1, "blue"),
             new Car("model2", 2, "red"),
